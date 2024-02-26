@@ -1,6 +1,7 @@
 import FeaturedCoursesSection from "@/components/FeaturedCoursesSection";
 import HeroSection from "@/components/HeroSection";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import Image from "next/image";
 
@@ -11,6 +12,7 @@ export default function Home() {
       < FeaturedCoursesSection />
       <WhyChooseUs />
       <MusicSchoolTestimonials />
+      <UpcomingWebinars />
     </main>
   );
 }
